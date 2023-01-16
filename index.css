@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home-score-count {
+    border: 3px solid black;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+
+
+}
+#away-score-count {
+    border: 3px solid black;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    font-family: 'Cursed Timer ULiL';
+    background: #080001;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+}
+
+#title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+}
+
+#incr-1, #incr-2, #incr-3 {
+    
+    box-sizing: border-box;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL';
+   
+}
+#incr-1 {
+    margin-right: 8px;
+}
+#incr-2 {
+    margin-right: 8px;
+}
+
+#incr-11 {
+    margin-right: 8px;
+}
+#incr-22 {
+    margin-right: 8px;
+}
+
+
+
+#incr-11, #incr-22, #incr-33 {
+     
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    background: #1B244A;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    color: #9AABD8;
+    font-family: 'Cursed Timer ULiL';
+}
+
+#new-game {
+    background: #1B244A;
+    color: green;
+    border: 3px solid green;
+    font-family: 'Cursed Timer ULiL';
+    width: 150px;
+    height: 48px;
+    margin: 380px 0px auto;
+}
+
+
